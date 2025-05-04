@@ -1,6 +1,6 @@
 This is a Die game that micmics MonteCarlo simulation.
 
-- **Source code:** https://github.com/d26clarke/DS5100-Project/tree/main
+- **Source code:** https://github.com/egyamfi6/finalProject
 
 
 General features of the game:
