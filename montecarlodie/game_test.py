@@ -1,11 +1,10 @@
 #Name: Emmanuel Gyamfi, ID: asw4uc
-#GitHub:https://github.com/egyamfi6/
+#GitHub:https://github.com/egyamfi6/finalProject
 #game_test.py
 
 from game import Game
 import unittest
 import numpy as np
-
 from die import Die
 
 

@@ -1,5 +1,5 @@
 #Name: Emmanuel Gyamfi, ID: asw4uc
-#GitHub:https://github.com/egyamfi6/
+#GitHub:https://github.com/egyamfi6/finalProject
 #die_test.py
 
 #import relevant libraries

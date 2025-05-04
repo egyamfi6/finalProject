@@ -1,12 +1,12 @@
 #Name: Emmanuel Gyamfi, ID: asw4uc
-#GitHub:https://github.com/egyamfi6/
+#GitHub:https://github.com/egyamfi6/finalProject
 #game.py
 
 
 #import relevant libraries
 import pandas as pd
 import numpy as np
-from die import Die
+from montecarlodie.die import Die
 
 # create the Game class
 class Game:
@@ -23,7 +23,7 @@ class Game:
     """
 
     # create the initializer for the Game class
-    def __init__(self, Dice: list[Die]) -> None: #change Dice to my own
+    def __init__(self, Dice: list[Die]) -> None: 
         """
         .This initializes the Game class.
         .This Takes only one parameter, which is a list of already instantiated similar dice.
@@ -69,9 +69,9 @@ class Game:
         .Returns nothing
         """
 
-        print(f"Entering method play: Number of requested rolls ({how_many_rolls})\n") #will delete this
+        print(f"Entering method play: Number of requested rolls ({how_many_rolls})\n")
 
-        print(f"Number of Die in play: {len(self.Dice)}")                   #will delete this
+        print(f"Number of Die in play: {len(self.Dice)}")                
 
 
         allDieRollResults: list = []
@@ -111,14 +111,14 @@ class Game:
 if __name__ == '__main__':
 
     # The Die
-    listDieOne: np.array = np.array(['A', 'B', 'C', 'D', 'E', 'F'], dtype=str)
-    listDieTwo: np.array = np.array(['A', 'B', 'C', 'D', 'E', 'F'], dtype=str)
-    listDieThree: np.array = np.array(['A', 'B', 'C', 'D', 'E', 'F'], dtype=str)
+    DieOne: np.array = np.array(['A', 'B', 'C', 'D', 'E', 'F'], dtype=str)
+    DieTwo: np.array = np.array(['A', 'B', 'C', 'D', 'E', 'F'], dtype=str)
+    DieThree: np.array = np.array(['A', 'B', 'C', 'D', 'E', 'F'], dtype=str)
    
 
-    dieOneInstance: Die = Die(listDieOne)
-    dieTwoInstance: Die = Die(listDieTwo)
-    dieThreeInstance: Die = Die(listDieThree)
+    dieOneInstance: Die = Die(DieOne)
+    dieTwoInstance: Die = Die(DieTwo)
+    dieThreeInstance: Die = Die(DieThree)
 
 
     #Manage Die weighting

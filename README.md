@@ -17,28 +17,24 @@ General features of the game:
 
 Installation Requirements:
 
-Obtaining file:///sfs/gpfs/tardis/home/asw4uc/DS5100_final_project
- 
-
-    At your system command prompt,
-    First, pip install montecarlodie
+    At your system command prompt, enter pip install montecarlodie
         You should see the following results:
            
- Preparing metadata (setup.py) ... done
-Requirement already satisfied: Numpy in /apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages (from MonteCarlo-Die-Simulator==0.1.0) (1.24.4)
-Requirement already satisfied: Pandas in /apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages (from MonteCarlo-Die-Simulator==0.1.0) (2.0.3)
-Requirement already satisfied: python-dateutil>=2.8.2 in /apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages (from Pandas->MonteCarlo-Die-Simulator==0.1.0) (2.8.2)
-Requirement already satisfied: pytz>=2020.1 in /apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages (from Pandas->MonteCarlo-Die-Simulator==0.1.0) (2023.3)
-Requirement already satisfied: tzdata>=2022.1 in /apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages (from Pandas->MonteCarlo-Die-Simulator==0.1.0) (2023.3)
-Requirement already satisfied: six>=1.5 in /apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages (from python-dateutil>=2.8.2->Pandas->MonteCarlo-Die-Simulator==0.1.0) (1.16.0)
-Installing collected packages: MonteCarlo-Die-Simulator
-  Running setup.py develop for MonteCarlo-Die-Simulator
-Successfully installed MonteCarlo-Die-Simulator-0.1.0
-    import required modules
-        For Example: Let's play a game where we create three die, give the three die the same weight
-                        and roll the three die ten (10) times.  You will be able to review the results and see if 
-                        you hit any jackpots!  You will also be able to see differing combinations and permutations
-                        of your die rolls.
+ -Preparing metadata (setup.py) ... done
+ -Requirement already satisfied: Numpy in /apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages (from MonteCarlo-Die- -Simulator==0.1.0) (1.24.4)
+-Requirement already satisfied: Pandas in /apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages (from MonteCarlo-Die----Simulator==0.1.0) (2.0.3)
+-Requirement already satisfied: python-dateutil>=2.8.2 in /apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages (from Pandas-->MonteCarlo-Die-Simulator==0.1.0) (2.8.2)
+-Requirement already satisfied: pytz>=2020.1 in /apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages (from Pandas->MonteCarlo-Die--Simulator==0.1.0) (2023.3)
+-Requirement already satisfied: tzdata>=2022.1 in /apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages (from Pandas->MonteCarlo--Die-Simulator==0.1.0) (2023.3)
+-Requirement already satisfied: six>=1.5 in /apps/software/standard/core/jupyterlab/3.6.3-py3.11/lib/python3.11/site-packages (from python-dateutil>=2.8.2-->Pandas->MonteCarlo-Die-Simulator==0.1.0) (1.16.0)
+-Installing collected packages: MonteCarlo-Die-Simulator
+ -Running setup.py develop for MonteCarlo-Die-Simulator
+-Successfully installed MonteCarlo-Die-Simulator-0.1.0
+    -import required modules
+       - For Example: Let's play a game where we create three die, give the three die the same weight
+                       - and roll the three die ten (10) times.  You will be able to review the results and see if 
+                       - you hit any jackpots!  You will also be able to see differing combinations and permutations
+                       - of your die rolls.
 
         In a file called montecarloTest.py, use the following code sample
 

@@ -1,12 +1,12 @@
 #Name: Emmanuel Gyamfi, ID: asw4uc
-#GitHub:https://github.com/egyamfi6/
+#GitHub:https://github.com/egyamfi6/finalProject
 #analyzer.py
 
 #import relevant libraries
 import pandas as pd
 import numpy as np
-from die import Die
-from game import Game
+from montecarlodie.die import Die
+from montecarlodie.game import Game
 
 # create the Analyzer class
 class Analyzer:
